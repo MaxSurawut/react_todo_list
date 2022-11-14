@@ -1,12 +1,11 @@
 import React from 'react';
 import './app.css'
 import { ReactComponent as Sunicon } from './images/icon-sun.svg'
-import { useRef, useState, useEffect } from 'react'
+import { useRef} from 'react'
 
 
 function App() {
   const tasks = useRef()
-  const [job, SetJob] = useState()
 
   const addTask = (e)=>{
     e.preventDefault()
